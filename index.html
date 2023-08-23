@@ -4,8 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)"
+    href="table.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)"
+    href="phone.css">
 </head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main"></div>
+        <h1 class="headings">I AM <br> FARINOLA ANTHONIA</h1>
+        <button class="btn">
+            Hire me
+        </button>
+    </section>
     
+    <section id="about">
+            <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            <img src="/Images/images (4).jpeg" alt="">
+        <div id="intro">
+            <h2>FARINOLA ANTHONIA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Laboriosam expedita tempore facere eaque tenetur 
+                exercitationem ipsam excepturi nobis fuga? Eaque omnis aliquid cum eius sapiente! 
+                Ratione voluptas accusantium numquam debitis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti optio, rem qui,
+                 exercitationem a aliquid natus at
+                 numquam soluta quas quasi cum nostrum nobis quod dicta blanditiis facilis non saepe.
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam id deleniti nulla aliquam 
+                 fugit molestias perferendis esse 
+                 obcaecati voluptas delectus magni ratione quas ipsam sit, molestiae corporis rem alias beatae!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod blanditiis quasi, 
+                 voluptate reiciendis exercitationem necessitatibus maxime quibusdam vitae fugit.
+                  Sunt assumenda dignissimos eligendi dolor corrupti ea error tempora facere id?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nam porro quibusdam tenetur itaque, 
+                  dolor impedit doloribus autem labore incidunt quisquam vitae?
+                   Quidem aperiam a inventore assumenda, rem accusantium eligendi?
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+            <h1 class="headings">PORTFOLIO</h1>
+            <div class="gallery">
+                <img src="/Images/port1.jpeg" alt="">
+                <img src="/Images/port2.jpeg" alt="">
+                <img src="/Images/port3.jpeg" alt="">
+                <img src="/Images/port 4.jpeg" alt="">
+                <img src="/Images/port5.jpeg" alt="">
+                <img src="/Images/port6.jpeg" alt="">
+            </div>
+    </section>
+<section id="services">
+    <h1 class="headings">SERVICES</h1>
+    <div class="row">
+        <div class="box">
+            <h1 class="headings">Website Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quaerat blanditiis optio laudantium porro rerum velit laboriosam, 
+                perferendis accusamus omnis quo eveniet in voluptates, delectus nulla. 
+                Perferendis vitae aspernatur nihil temporibus.</p>
+        </div>
+    <div class="box">
+            <h1 class="headings">UI/UX <br> Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quaerat blanditiis optio laudantium porro rerum velit laboriosam, 
+                perferendis accusamus omnis quo eveniet in voluptates, delectus nulla. 
+                Perferendis vitae aspernatur nihil temporibus.</p>
+    </div>
+    <div class="box">
+            <h1 class="headings">Design Marketing</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quaerat blanditiis optio laudantium porro rerum velit laboriosam, 
+                perferendis accusamus omnis quo eveniet in voluptates, delectus nulla. 
+                Perferendis vitae aspernatur nihil temporibus.</p>
+    </div>
+    </div>
+</section>
+
+<section id="contact">
+            <h1 class="headings">CONTACT</h1>
+            <form action="" class="form">
+                <input type="text" name="name" id="input" placeholder="Enter Your Name">
+                <input type="Email" name="Email" class="input" placeholder="Enter Your Email">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="SEND" id="send">
+            </form>
+</section>
 </body>
 </html>
+
